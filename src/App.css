@@ -446,9 +446,17 @@ border: solid 2px purple;
       margin-left: 41%;
       margin-top: 2%;
       margin-bottom: 2%;
-      
       }
+
+    .margin4{
+      margin-left: 50px;
     }
+
+    .pokedexx img{
+      width: 300px;
+    }
+    }
+    
 
  
   
