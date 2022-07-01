@@ -20,7 +20,7 @@ const PokeEle = () => {
     
     <div className='header'>
       <div className='headerCircle'></div>
-      <h1><img src="https://archives.bulbagarden.net/media/upload/4/4b/Pok%C3%A9dex_logo.png" alt="" /></h1>
+      <h1 className='pokedexx'><img src="https://archives.bulbagarden.net/media/upload/thumb/4/4b/Pok%C3%A9dex_logo.png/250px-Pok%C3%A9dex_logo.png" alt="" /></h1>
     
       
      
