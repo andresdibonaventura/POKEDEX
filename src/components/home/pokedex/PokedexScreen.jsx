@@ -35,7 +35,7 @@ const PokedexScreen = () => {
     <div className='header'>
       <div className='headerCircle'>
       </div>
-      <h1><img src="https://archives.bulbagarden.net/media/upload/4/4b/Pok%C3%A9dex_logo.png" alt="" /></h1>
+      <h1><img src="https://archives.bulbagarden.net/media/upload/thumb/4/4b/Pok%C3%A9dex_logo.png/250px-Pok%C3%A9dex_logo.png" alt="" /></h1>
       <h2 className='margiTop margiLeft'>Hola {nameUser}, bienvenido a la pokedex </h2>
       <h3 className='margiTop'><PokeType pokemons={pokemons} setfilterPokemon={setfilterPokemon}/></h3>
         
