@@ -10,6 +10,10 @@
 .up{
 text-transform: uppercase;
 }
+
+.pokedexx img{
+  width: 400px;
+}
 .header{
   height: 150px;
   width: 100%;
