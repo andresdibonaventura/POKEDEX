@@ -17,7 +17,7 @@ const PokedexScreen = () => {
   const [perPage, setPerPage] = useState(20)
 
   useEffect(() => {
-    const URL_POKEMONS = 'https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1100'
+    const URL_POKEMONS = 'https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1154'
     axios.get(URL_POKEMONS)
       .then(res => setPokemons(res.data.results))
       .catch(err => console.log(err))
