@@ -53,24 +53,24 @@ const PokeType = ({ pokemons, setfilterPokemon }) => {
         >
           <DropdownToggle className="filter">Pokemon Type</DropdownToggle>
           <DropdownMenu>
-            <DropdownItem onClick={clickCard}>grass</DropdownItem>
-            <DropdownItem onClick={clickCard}>fire</DropdownItem>
-            <DropdownItem onClick={clickCard}>water</DropdownItem>
-            <DropdownItem onClick={clickCard}>bug</DropdownItem>
-            <DropdownItem onClick={clickCard}>normal</DropdownItem>
-            <DropdownItem onClick={clickCard}>poison</DropdownItem>
-            <DropdownItem onClick={clickCard}>fairy</DropdownItem>
-            <DropdownItem onClick={clickCard}>rock</DropdownItem>
-            <DropdownItem onClick={clickCard}>dark</DropdownItem>
-            <DropdownItem onClick={clickCard}>ice</DropdownItem>
-            <DropdownItem onClick={clickCard}>steel</DropdownItem>
-            <DropdownItem onClick={clickCard}>dragon</DropdownItem>
-            <DropdownItem onClick={clickCard}>ground</DropdownItem>
-            <DropdownItem onClick={clickCard}>fighting</DropdownItem>
-            <DropdownItem onClick={clickCard}>ghost</DropdownItem>
-            <DropdownItem onClick={clickCard}>psychic</DropdownItem>
-            <DropdownItem onClick={clickCard}>electric</DropdownItem>
-            <DropdownItem onClick={clickCard}>flying</DropdownItem>
+            <DropdownItem onClick={clickCard} className='up'>grass</DropdownItem>
+            <DropdownItem onClick={clickCard} className='up' >fire</DropdownItem>
+            <DropdownItem onClick={clickCard} className='up'>water</DropdownItem>
+            <DropdownItem onClick={clickCard} className='up'>bug</DropdownItem>
+            <DropdownItem onClick={clickCard} className='up'>normal</DropdownItem>
+            <DropdownItem onClick={clickCard} className='up'>poison</DropdownItem>
+            <DropdownItem onClick={clickCard} className='up'>fairy</DropdownItem>
+            <DropdownItem onClick={clickCard} className='up'>rock</DropdownItem>
+            <DropdownItem onClick={clickCard} className='up'>dark</DropdownItem>
+            <DropdownItem onClick={clickCard} className='up'>ice</DropdownItem>
+            <DropdownItem onClick={clickCard} className='up'>steel</DropdownItem>
+            <DropdownItem onClick={clickCard} className='up'>dragon</DropdownItem>
+            <DropdownItem onClick={clickCard} className='up'>ground</DropdownItem>
+            <DropdownItem onClick={clickCard} className='up'>fighting</DropdownItem>
+            <DropdownItem onClick={clickCard} className='up'>ghost</DropdownItem>
+            <DropdownItem onClick={clickCard} className='up'>psychic</DropdownItem>
+            <DropdownItem onClick={clickCard} className='up'>electric</DropdownItem>
+            <DropdownItem onClick={clickCard} className='up'>flying</DropdownItem>
           </DropdownMenu>
         </Dropdown>
       </form>
